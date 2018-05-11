@@ -20,7 +20,7 @@ var concat = require('gulp-concat');
 var connect = require('gulp-connect');
 
 // 安装sass插件
-// var scss = require('gulp-ruby-sass');
+var sass = require('gulp-ruby-sass');
 
 
 // 定义任务js 源文件路径 ./src/js/*.js  目标路径 ./dist/js
@@ -48,11 +48,20 @@ gulp.task('yasuoHtml',function(){
 	.pipe(gulp.dest('./dist/html'));
 });
 
+// 定义scss转换成sass
+gulp.task('sass',function(){
+	// return是为了返回错误信息
+	return sass('./src/scss/*.scss')
+	// 将错误信息位置打印错误信息
+	.on('error',function(err){console.log(err.message)})
+	.pipe(gulp.dest('./src/css'));
+});
+
 // 刷新任务 
 gulp.task('ting',function(){
 	return gulp.src('./dist/html/*.html')
 			.pipe(connect.reload());
-})
+});
 
 // 设置默认的任务
 gulp.task('default',['yasuoJs','yasuoCss','yasuoHtml'],function(){
@@ -60,6 +69,7 @@ gulp.task('default',['yasuoJs','yasuoCss','yasuoHtml'],function(){
 	gulp.watch('./src/js/*.js',['yasuoJs','ting']);
 	gulp.watch('./src/css/*.css',['yasuoCss','ting']);
 	gulp.watch('./src/html/*.html',['yasuoHtml','ting']);
+	gulp.watch('./src/scss/*.scss',['sass']);
 	// 开启服务器
 	connect.server({
 		// 指定端口号
