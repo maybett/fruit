@@ -1,3 +1,16 @@
-div, p {
+/* CSS Document */
+body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, table, tr, td, hr, fieldset, input, img {
   margin: 0;
   padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
+input, img {
+  outline: none; }

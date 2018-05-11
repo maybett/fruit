@@ -1,0 +1,15 @@
+.fi_header {
+  width: 100%;
+  height: 30px;
+  background: #eeeeee; }
+  .fi_header .fi_header_left {
+    width: 314px;
+    height: 30px;
+    float: left; }
+    .fi_header .fi_header_left .word {
+      width: 75px;
+      height: 30px; }
+      .fi_header .fi_header_left .word .iconfont {
+        font-size: 15px;
+        color: #64a131;
+        line-height: 30px; }
