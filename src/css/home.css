@@ -6,10 +6,238 @@
     width: 314px;
     height: 30px;
     float: left; }
-    .fi_header .fi_header_left .word {
+    .fi_header .fi_header_left .fi_header_left_shanghai {
       width: 75px;
-      height: 30px; }
-      .fi_header .fi_header_left .word .iconfont {
+      height: 30px;
+      margin-left: 73px;
+      float: left;
+      position: relative; }
+      .fi_header .fi_header_left .fi_header_left_shanghai .iconfont {
         font-size: 15px;
         color: #64a131;
+        line-height: 30px;
+        margin-left: 5px; }
+      .fi_header .fi_header_left .fi_header_left_shanghai .one {
+        font-size: 12px;
+        color: #999999;
         line-height: 30px; }
+      .fi_header .fi_header_left .fi_header_left_shanghai .two {
+        width: 0;
+        height: 0;
+        border: 8px solid transparent;
+        border-top: 8px solid #999999;
+        position: absolute;
+        top: 12px;
+        right: 6px; }
+    .fi_header .fi_header_left .fi_header_left_shanghai:hover {
+      background: white; }
+    .fi_header .fi_header_left p {
+      font-size: 12px;
+      color: #999999;
+      float: left;
+      line-height: 30px;
+      margin-left: 10px;
+      margin-right: 5px; }
+    .fi_header .fi_header_left a {
+      font-size: 12px;
+      line-height: 30px;
+      color: #64a131; }
+    .fi_header .fi_header_left a:hover {
+      text-decoration: underline; }
+  .fi_header .fi_header_right {
+    float: right;
+    margin-right: 80px;
+    font-size: 12px;
+    line-height: 30px; }
+    .fi_header .fi_header_right a {
+      color: #999999;
+      margin-right: 3px;
+      margin-left: -7px; }
+      .fi_header .fi_header_right a i {
+        color: #64a131;
+        margin-right: 7px; }
+    .fi_header .fi_header_right span {
+      margin-left: 16px; }
+    .fi_header .fi_header_right a:hover {
+      color: orange; }
+      .fi_header .fi_header_right a:hover span {
+        color: #999999; }
+
+.fi_search {
+  width: 100%;
+  height: 120px;
+  background: #ffffff; }
+  .fi_search .fi_search_left {
+    width: 417px;
+    height: 120px;
+    float: left; }
+    .fi_search .fi_search_left a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: url("http://www.fruitday.com/images/common/logo.svg") no-repeat center center;
+      background-size: 300px,84px; }
+  .fi_search .fi_search_center {
+    width: 450px;
+    height: 120px;
+    float: left; }
+    .fi_search .fi_search_center ul li {
+      float: left;
+      width: 89px;
+      height: 120px; }
+      .fi_search .fi_search_center ul li a {
+        display: block;
+        width: 89px;
+        height: 41px;
+        margin-top: 5px;
+        text-align: center;
+        margin-top: 40px;
+        border-right: 1px solid #eeeeee;
+        font-size: 14px;
+        color: #999999;
+        position: relative; }
+        .fi_search .fi_search_center ul li a span {
+          position: absolute; }
+        .fi_search .fi_search_center ul li a .two {
+          left: 23px;
+          top: 17px; }
+        .fi_search .fi_search_center ul li a .three {
+          left: 28px;
+          top: 17px; }
+        .fi_search .fi_search_center ul li a .four {
+          left: 25px;
+          top: 17px; }
+        .fi_search .fi_search_center ul li a .five {
+          left: 32px;
+          top: 17px; }
+        .fi_search .fi_search_center ul li a .six {
+          left: 17px;
+          top: 17px; }
+      .fi_search .fi_search_center ul li .seven {
+        border: none; }
+      .fi_search .fi_search_center ul li a:hover {
+        background: #eeeeee; }
+      .fi_search .fi_search_center ul li .nine {
+        color: #64a131; }
+    .fi_search .fi_search_center ul .eight {
+      height: 118px;
+      border-bottom: 2px solid #64a131; }
+  .fi_search .fi_search_right {
+    width: 370px;
+    height: 120px;
+    float: right; }
+    .fi_search .fi_search_right input {
+      width: 182px;
+      height: 27px;
+      margin-left: 47px;
+      margin-top: 43px;
+      border: none;
+      border-bottom: 1px solid #999999;
+      text-indent: 4px;
+      color: #333333;
+      font-size: 12px;
+      background: url("../imgs/home/search.jpg") no-repeat 158px 6px; }
+    .fi_search .fi_search_right ul {
+      margin-left: 50px;
+      font-size: 12px;
+      color: #999999; }
+      .fi_search .fi_search_right ul li {
+        float: left;
+        line-height: 20px; }
+        .fi_search .fi_search_right ul li a {
+          color: #999999;
+          margin-right: 8px; }
+        .fi_search .fi_search_right ul li a:hover {
+          text-decoration: underline; }
+    .fi_search .fi_search_right #shopping {
+      width: 37px;
+      height: 41px;
+      background: #64a131;
+      margin-left: 255px;
+      margin-top: -25px;
+      border-radius: 70%;
+      position: relative; }
+      .fi_search .fi_search_right #shopping i {
+        margin-left: 5px;
+        margin-top: 4px;
+        font-size: 26px;
+        display: block;
+        padding-top: 7px;
+        color: #fdfefd; }
+      .fi_search .fi_search_right #shopping span {
+        position: absolute;
+        left: 14px;
+        top: -2px;
+        color: #fdfefd; }
+
+.carousel-indicators li {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #64a131; }
+
+.carousel-indicators .active {
+  width: 18px;
+  height: 18px;
+  background: #64a131; }
+
+.carousel-inner .item img {
+  width: 100%;
+  height: 400px; }
+
+.fi_box {
+  width: 100%;
+  height: 202px; }
+  .fi_box .fi_fruit {
+    width: 1283px;
+    height: 202px;
+    background: #ffffff;
+    margin: 0 auto;
+    border-bottom: 1px solid #cccccc; }
+    .fi_box .fi_fruit a {
+      margin-right: 27px;
+      margin-top: 10px;
+      display: block;
+      float: left; }
+    .fi_box .fi_fruit .ten {
+      margin-right: 0; }
+
+.fi_shop {
+  width: 100%;
+  height: 740px; }
+  .fi_shop .fi_shop_home {
+    width: 1283px;
+    height: 740px;
+    background: red;
+    margin: 0 auto;
+    border-bottom: 1px solid #cccccc; }
+    .fi_shop .fi_shop_home .fi_shop_top {
+      height: 66px;
+      background: #fff; }
+      .fi_shop .fi_shop_home .fi_shop_top .fi_shop_top_left {
+        float: left;
+        margin-top: 18px; }
+      .fi_shop .fi_shop_home .fi_shop_top .fi_shop_top_right {
+        float: right;
+        font-size: 14px;
+        color: #333333;
+        margin-top: 31px; }
+    .fi_shop .fi_shop_home .fi_shop_center {
+      height: 311px; }
+      .fi_shop .fi_shop_home .fi_shop_center ul {
+        height: 312px;
+        background: blue; }
+        .fi_shop .fi_shop_home .fi_shop_center ul li {
+          width: 247px;
+          height: 247px;
+          float: left;
+          margin-right: 12px;
+          overflow: hidden; }
+          .fi_shop .fi_shop_home .fi_shop_center ul li img {
+            display: block;
+            width: 247px;
+            height: 247px; }
+        .fi_shop .fi_shop_home .fi_shop_center ul .fi_shop_center_point {
+          margin-right: 0; }
+        .fi_shop .fi_shop_home .fi_shop_center ul li:hover img {
+          transform: scale(1.1);
+          transition: all 0.5s; }

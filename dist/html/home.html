@@ -3,6 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>天天果园</title>
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- 新引入的jquery -->
+	<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- 自己写的 -->
 	<link rel="stylesheet" href="../css/home.css">
 	<link rel="stylesheet" href="../css/common.css">
 	<link rel="stylesheet" type="text/css" href="../css/iconfont.css">
@@ -11,11 +18,106 @@
 	<!-- header -->
 	<div class="fi_header">
 		<div class="fi_header_left">
-			<div class="word">
+			<div class="fi_header_left_shanghai dropdown">
 				<i class="iconfont icon-cheb"></i>
+				<span class="one">上海</span>
+				<span class="two"></span>
+			</div>
+			<p>满百包邮(环郊内)</p>
+			<a href="#">星夜达</a>
+		</div>
+		<div class="fi_header_right">
+			<a href="#">[登录]&nbsp;&nbsp;&nbsp;,&nbsp;&nbsp;&nbsp;</a>
+			<a href="#">[注册有惊喜]</a><span>|<span>
+			<a href="#" class="fi_header_right_a">[果园公告]</a><span>|<span>
+			<a href="#">[劵卡兑换]</a><span>|<span>
+			<a href="#" class="fi_header_right_a"><i class="iconfont icon-mobile"></i>[手机果园]</a>
+		</span></span></span></span></span></span></div>
+	</div>
+
+	<!-- search -->
+	<div class="fi_search">
+		<div class="fi_search_left">
+			<a href="#"></a>
+		</div>
+		<div class="fi_search_center">
+			<ul>
+				<li class="eight"><a href="#" class="nine">首页<span class="two">Home</span></a></li>
+				<li><a href="#">鲜果<span class="three">Fruit</span></a></li>
+				<li><a href="#">生鲜<span class="four">Fresh</span></a></li>
+				<li><a href="#">礼品<span class="five">Gift</span></a></li>
+				<li><a href="#" class="seven">会员中心<span class="six">VIP  Club</span></a></li>
+			</ul>
+		</div>
+		<div class="fi_search_right">
+			<form action="">
+				<input type="text" placeholder="请输入关键词">
+			</form>
+			<ul>
+				<li>热门&nbsp;:&nbsp;</li>
+				<li><a href="#">橙</a></li>
+				<li><a href="#">提子</a></li>
+				<li><a href="#">樱桃</a></li>
+				<li><a href="#">热门</a></li>
+			</ul>
+			<div id="shopping">
+				<i class="iconfont icon-xiazai3"></i>
+				<span>0</span>
 			</div>
 		</div>
-		<div class="fi_header_right"></div>
 	</div>
+
+	<!-- banner -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="../imgs/home/banner1.jpg">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="../imgs/home/banner2.jpg">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fi_box -->
+<div class="fi_box">
+	<div class="fi_fruit">
+		<a href="#"><img src="../imgs/home/price1.jpg"></a>
+		<a href="#"><img src="../imgs/home/price2.jpg"></a>
+		<a href="#"><img src="../imgs/home/price3.jpg"></a>
+		<a href="#" class="ten"><img src="../imgs/home/price4.jpg"></a>
+	</div>
+</div>
+<!-- fi_shop -->
+<div class="fi_shop">
+	<div class="fi_shop_home">
+		<div class="fi_shop_top">
+			<ul>
+				<li class="fi_shop_top_left"><img src="../imgs/home/t4.png"></li>
+				<li class="fi_shop_top_right">更多&nbsp;&gt;</li>
+			</ul>
+		</div>
+		<div class="fi_shop_center">
+			<ul>
+				<li><img src="../imgs/home/shop1.jpg" alt=""></li>
+				<li><img src="../imgs/home/shop2.jpg" alt=""></li>
+				<li><img src="../imgs/home/shop3.jpg" alt=""></li>
+				<li><img src="../imgs/home/shop4.jpg" alt=""></li>
+				<li class="fi_shop_center_point"><img src="../imgs/home/shop5.jpg" alt=""></li>
+			</ul>
+		</div>
+		<div class="fi_shop_bottom"></div>
+	</div>
+</div>
 </body>
 </html>
