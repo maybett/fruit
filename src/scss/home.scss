@@ -253,7 +253,6 @@
 	.fi_shop_home{
 		width:1283px;
 		height:740px;
-		background:red;
 		margin:0 auto;
 		border-bottom: 1px solid #cccccc;
 		.fi_shop_top{
@@ -274,17 +273,43 @@
 			height:311px;
 			ul{
 				height:312px;
-				background: blue;
+				cursor: pointer;
 				li{
 					width:247px;
-					height:247px;
-					float: left;
+					height:312px;
+					background:white;
+					float:left;
 					margin-right: 12px;
-					overflow: hidden;
-					img{
-						display: block;
+					position: relative;
+
+					div{
 						width:247px;
 						height:247px;
+						float: left;
+						overflow: hidden;
+						img{
+							display: block;
+							width:247px;
+							height:247px;
+						}
+					}
+					p{
+						color:#555555;
+						line-height: 34px;
+						font-size: 14px;
+					}
+					h6{
+						color:#a2a2a2;
+						font-size: 12px;
+					}
+					h1{
+						width:36px;
+						height:36px;
+						background:url('../imgs/home/icons.png') no-repeat;
+						background-position: -515px -239px;
+						position: absolute;
+						right: 0;
+						bottom:14px;
 					}
 				}
 				.fi_shop_center_point{
@@ -294,6 +319,87 @@
 					img{
 						transform:scale(1.1);
 						transition:all 0.5s;
+					}
+				}
+			}
+		}
+	}
+}
+.fi_footer{
+	width:100%;
+	height:477px;
+	background:red;
+	.fi_footer_top{
+		height:104px;
+		ul{
+			height:104px;
+			margin-left:72px;
+			li{
+				width:320px;
+				height:104px;
+				float: left;
+				border-bottom:1px solid #ddd;
+				div{
+					width:320px;
+					height:60px;
+					margin-top: 20px;
+					// background:yellow;
+					border-right:1px solid #dddddd;
+				}
+				.fi_footer_one{
+					background: url('../imgs/home/icon.png') no-repeat;
+					background-position:45px 0px;
+				}
+				.fi_footer_two{
+					background: url('../imgs/home/icon.png') no-repeat;
+					background-position:45px -56px;
+				}
+				.fi_footer_three{
+					background: url('../imgs/home/icon.png') no-repeat;
+					background-position:45px -121px;
+				}
+				.fi_footer_four{
+					border:none;
+					background: url('../imgs/home/icon.png') no-repeat;
+					background-position:45px -180px;
+				}
+			}
+		}
+	}
+	.fi_footer_center{
+		width:100%;
+		height:196px;
+		background: blue;
+		.fi_footer_center_con{
+			width:1282px;
+			height:196px;
+			margin:0 auto;
+			.fi_footer_center_left{
+				width:594px;
+				height:196px;
+				float:left;
+				.fi_footer_maone{
+					margin-left:246px;
+					margin-top: 20px;
+					float:left;
+				}
+				.fi_footer_matwo{
+					margin-left:415px;
+					margin-top: -130px;
+					float:left;
+				}
+			}
+			.fi_footer_center_right{
+				width:688px;
+				height:196px;
+				background:#ddd;
+				float: left;
+				ul{
+					li{
+						float: left;
+						width:118px;
+						height:196px;
+						background:yellow;
 					}
 				}
 			}

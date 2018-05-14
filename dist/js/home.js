@@ -1,0 +1,1 @@
+$(function(){$(".fi_shop_center h1").on("click",function(){$(this).css("background-position","-515px -289px"),$(this).css("transition","all 1s")})});
