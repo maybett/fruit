@@ -247,6 +247,16 @@
 		}
 	}
 }
+.carousel{
+	position:relative;
+}
+.fi_banner{
+	position: absolute;
+	width:311px;
+	height:400px;
+	left:0;
+	top:0;
+}
 .fi_shop{
 	width:100%;
 	height:740px;
@@ -328,7 +338,7 @@
 .fi_footer{
 	width:100%;
 	height:477px;
-	background:red;
+	background:#fff;
 	.fi_footer_top{
 		height:104px;
 		ul{
@@ -369,11 +379,11 @@
 	.fi_footer_center{
 		width:100%;
 		height:196px;
-		background: blue;
 		.fi_footer_center_con{
 			width:1282px;
 			height:196px;
 			margin:0 auto;
+			border-bottom:1px solid #dddddd;
 			.fi_footer_center_left{
 				width:594px;
 				height:196px;
@@ -382,27 +392,215 @@
 					margin-left:246px;
 					margin-top: 20px;
 					float:left;
+					span{
+						font-size:13px;
+						margin-top:12px;
+						display: block;
+						margin-left: 13px;
+						color:#9999b2;
+					}
 				}
 				.fi_footer_matwo{
 					margin-left:415px;
-					margin-top: -130px;
+					margin-top: -159px;
 					float:left;
+					span{
+						font-size:13px;
+						margin-top:12px;
+						display: block;
+						margin-left: 13px;
+						color:#9999b2;
+					}
 				}
 			}
 			.fi_footer_center_right{
 				width:688px;
 				height:196px;
-				background:#ddd;
 				float: left;
 				ul{
 					li{
 						float: left;
 						width:118px;
 						height:196px;
-						background:yellow;
+						dl{
+							text-align: center;
+							dt{
+								line-height: 52px;
+								margin-top: 16px;
+								color:#33338c;
+								font-size: 15px;
+							}
+							dd{
+								line-height: 30px;
+								color:#999;
+								font-size: 14px;
+								}
+						}
 					}
 				}
 			}
 		}
 	}
+	.fi_footer_bottom{
+		text-align: center;
+		position:relative;
+		p{
+			margin-top: 18px;
+			color:#a599b2;
+			font-size: 14px;
+			.aaa{
+				color:#a599b2;
+			}
+		}
+		h6{
+			float: left;
+			font-size: 14px;
+			color:#64a131;
+			margin-left:652px;
+			margin-top: 13px;
+		}
+		.bbb{
+			display: block;
+			position: absolute;
+			left:654px;
+			top:60px;
+			img{
+				width:48px;
+				height:48px;
+			}
+		}
+	}
+}
+.fi_fix{
+	position:fixed;
+	bottom:2px;
+	right:0;
+	background: url(../imgs/home/kf.png) no-repeat;
+	// z-index: 9999;
+	width:35px;
+	height:109px;
+	.exchange{
+		background: black;
+		margin-top:0px;
+		z-index: 9999;
+		opacity: 0;
+		width:34px;
+		height:34px;
+		display:block;
+	}
+	.advisory{
+		background: blue;
+		margin-top:37px;
+		z-index: 9999;
+		opacity: 0;
+		width:34px;
+		height:34px;
+		display:block;
+	}
+	.return_top{
+		background: red;
+		margin-top:74px;
+		z-index: 9999;
+		opacity: 0;
+		width:34px;
+		height:34px;
+		display:block;
+	}
+}
+.pop-up{
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom: 0;
+	margin:auto;
+	width:512px;
+	height:276px;
+	background:#fff;
+	opacity: 0;
+	z-index: -111;
+	.pop_up_top{
+		width:512px;
+		height:40px;
+		background:#eaeaea;
+		position:relative;
+		a{
+			position:absolute;
+			right:6px;
+			top:-11px;
+			font-size: 47px;
+			display:block;
+			color:#545454;
+			text-decoration: none;
+		}
+	}
+	.pop_up_center{
+		width:512px;
+		height:107px;
+		position: relative;
+		h1{
+			width:69px;
+			height:80px;
+			margin-left: 86px;
+			margin-top: 21px;
+			background: url('../imgs/home/icons.png') no-repeat;
+			background-position: 0px -242px;
+			float: left;
+		}
+		h2{
+			font-size: 29px;
+			color:#555;
+			margin-left:116px;
+			position:absolute;
+			left:82px;
+			top:48px;
+		}
+	}
+	.pop_up_middle{
+		margin-left: 146px;
+		// text-align: center;
+		// margin:0 auto;
+		p{
+		   font-size: 18px;
+		   color:#ababab;
+		   line-height: 45px;
+		   float: left;
+	}
+		span{
+			float: left;
+			font-size: 18px;
+			margin-top: 10px;
+			color:#f6ab00;
+		}
+	}
+		#login_one{
+			display:block;
+			width:148px;
+			height:40px;
+			border:1px solid #64a131;
+			border-radius:3px;
+			margin-left:78px;
+			background: #f5ffed;
+			font-size: 17px;
+			color:#64a131;
+			margin-top: 58px;
+			line-height: 40px;
+			text-align: center;
+			text-decoration: none;
+		}
+		#login_two{
+			// border:none;
+			display:block;
+			width:148px;
+			margin-left:253px;
+			height:40px;
+			background: #64a131;
+			border-radius:3px;
+			font-size: 17px;
+			color:#eff4ec;
+			margin-top: -40px;
+			line-height: 40px;
+			text-decoration: none;
+			text-align: center;
+		}
 }
