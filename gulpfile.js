@@ -51,7 +51,7 @@ gulp.task('yasuoHtml',function(){
 // 定义scss转换成sass
 gulp.task('sass',function(){
 	// return是为了返回错误信息
-	return sass('./src/scss/*.scss')
+	return sass('./src/scss/*.{scss,css}')
 	// 将错误信息位置打印错误信息
 	.on('error',function(err){console.log(err.message)})
 	.pipe(gulp.dest('./src/css'));
