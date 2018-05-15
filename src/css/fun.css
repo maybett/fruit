@@ -1,0 +1,170 @@
+.fi_search {
+  box-shadow: 0 3px 5px #f1f1f1; }
+
+.tw_section {
+  width: 100%;
+  height: 645px; }
+  .tw_section .tw_section_con {
+    width: 1254px;
+    height: 648px;
+    margin: 0 auto; }
+    .tw_section .tw_section_con .baskball {
+      width: 1254px;
+      height: 37px;
+      padding-top: 47px; }
+      .tw_section .tw_section_con .baskball a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #96a131; }
+      .tw_section .tw_section_con .baskball span {
+        font-size: 14px;
+        color: #a69999; }
+    .tw_section .tw_section_con .ceng {
+      width: 1254;
+      height: 560px; }
+      .tw_section .tw_section_con .ceng .ceng_left {
+        width: 703px;
+        height: 601px;
+        float: left; }
+        .tw_section .tw_section_con .ceng .ceng_left .ceng_left_left {
+          width: 143px;
+          height: 601px;
+          float: left;
+          margin-top: 20px; }
+          .tw_section .tw_section_con .ceng .ceng_left .ceng_left_left img {
+            width: 143px;
+            height: 136px;
+            display: block;
+            margin-bottom: 1px; }
+        .tw_section .tw_section_con .ceng .ceng_left .ceng_left_right {
+          width: 560px;
+          height: 601px;
+          float: left; }
+          .tw_section .tw_section_con .ceng .ceng_left .ceng_left_right img {
+            width: 560px;
+            height: 560px;
+            display: block; }
+      .tw_section .tw_section_con .ceng .ceng_right {
+        width: 551px;
+        height: 601px;
+        background: #ddd;
+        float: left;
+        padding-left: 27px;
+        position: relative; }
+        .tw_section .tw_section_con .ceng .ceng_right h2 {
+          font-size: 24px;
+          color: #555555;
+          margin-top: 30px; }
+        .tw_section .tw_section_con .ceng .ceng_right p {
+          font-size: 15px;
+          color: #999;
+          margin-top: 24px;
+          margin-bottom: 16px; }
+        .tw_section .tw_section_con .ceng .ceng_right .tw_ma {
+          width: 551px;
+          height: 71px;
+          background: url("../imgs/home/icons.png") no-repeat;
+          background-position: -25px -48px; }
+          .tw_section .tw_section_con .ceng .ceng_right .tw_ma .tw_ma_left {
+            float: left; }
+            .tw_section .tw_section_con .ceng .ceng_right .tw_ma .tw_ma_left h3 {
+              line-height: 71px;
+              font-size: 13px;
+              color: #999;
+              float: left;
+              margin-left: 10px; }
+            .tw_section .tw_section_con .ceng .ceng_right .tw_ma .tw_ma_left span {
+              line-height: 71px;
+              color: #64a131;
+              font-size: 20px;
+              font-weight: 600; }
+          .tw_section .tw_section_con .ceng .ceng_right .tw_ma .tw_ma_right {
+            float: right;
+            width: 30px;
+            height: 30px;
+            background: url("../imgs/home/icons.png") no-repeat;
+            background-position: -64px -7px;
+            margin-right: 55px;
+            margin-top: 23px; }
+        .tw_section .tw_section_con .ceng .ceng_right .max_ma {
+          position: absolute;
+          width: 280px;
+          height: 280px;
+          left: 271px;
+          top: 0px;
+          background: red url("../imgs/fun/api.png") no-repeat 0px 0px;
+          z-index: -111;
+          display: none; }
+        .tw_section .tw_section_con .ceng .ceng_right .spec {
+          height: 70px; }
+          .tw_section .tw_section_con .ceng .ceng_right .spec h5 {
+            float: left;
+            font-weight: 100;
+            font-size: 14px;
+            color: #b299b2;
+            margin-top: 28px;
+            margin-left: 10px; }
+          .tw_section .tw_section_con .ceng .ceng_right .spec .tw_one {
+            float: left;
+            margin-top: 21px;
+            width: 61px;
+            height: 24px;
+            background: #64a131;
+            margin-left: 33px;
+            border: 1px solid #ddd;
+            font-size: 12px;
+            color: #fff;
+            line-height: 24px;
+            text-align: center; }
+        .tw_section .tw_section_con .ceng .ceng_right .distribution {
+          height: 56px;
+          background: #fff; }
+          .tw_section .tw_section_con .ceng .ceng_right .distribution h6 {
+            font-size: 14px;
+            color: #999;
+            line-height: 56px;
+            margin-left: 10px;
+            float: left; }
+          .tw_section .tw_section_con .ceng .ceng_right .distribution .distribution_box {
+            width: 70px;
+            height: 32px;
+            float: left;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            margin-top: 13px;
+            margin-left: 19px;
+            font-size: 14px;
+            color: #333;
+            line-height: 32px;
+            text-align: center; }
+            .tw_section .tw_section_con .ceng .ceng_right .distribution .distribution_box span {
+              color: #afafaf;
+              font-weight: 600; }
+          .tw_section .tw_section_con .ceng .ceng_right .distribution h5 {
+            float: left;
+            line-height: 56px;
+            margin-left: 10px;
+            color: #64a131;
+            font-size: 14px; }
+        .tw_section .tw_section_con .ceng .ceng_right .address {
+          position: absolute;
+          left: 58px;
+          top: 303px;
+          width: 350px;
+          height: 160px;
+          background: #fff; }
+          .tw_section .tw_section_con .ceng .ceng_right .address .address_top {
+            width: 320px;
+            height: 27px;
+            margin: 15px auto; }
+            .tw_section .tw_section_con .ceng .ceng_right .address .address_top .address_top_left {
+              width: 76px;
+              height: 28px;
+              border: 2px solid #64a131;
+              border-bottom-color: white;
+              float: left; }
+            .tw_section .tw_section_con .ceng .ceng_right .address .address_top .address_top_right {
+              float: left;
+              width: 244px;
+              height: 28px;
+              border-bottom: 2px solid #64a131; }
