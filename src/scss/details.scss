@@ -1,0 +1,33 @@
+.fi_search .fi_search_right{
+	width:485px;
+	float: right;
+	height: 44px;
+	margin-top:54px;
+	background: url('../imgs/home/icons.png') no-repeat;
+	background-position:52px -943px;
+	ul{
+		li{
+			float: left;
+			font-size:13px;
+			color:#64a131;
+			margin-top: 49px;
+			margin-left: 32px;
+		}
+		#five_one{
+			margin-left:83px;
+		}
+		#five_two{
+			margin-left:73px;
+			color:#333;
+		}
+	}
+	.five_three{
+			width:12px;
+			height:19px;
+			margin-top: 2px;
+			margin-left: 2px;
+			display: block;
+			font-size: 15px;
+			// color: #fff;
+		}	
+}

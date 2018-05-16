@@ -1,0 +1,56 @@
+/*
+Error: Invalid CSS after "			margin-top": expected ";", was ": 2px;"
+        on line 26 of ./src/scss/details.scss
+
+21: 			color:#333;
+22: 		}
+23: 	}
+24: 	.five_three{
+25: 			width:
+26: 			margin-top: 2px;
+27: 			margin-left: 2px;
+28: 			display: block;
+29: 			font-size: 15px;
+30: 			// color: #fff;
+31: 		}	
+
+Backtrace:
+./src/scss/details.scss:26
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1203:in `tok!'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:804:in `block in try_declaration'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1254:in `rethrow'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:809:in `try_declaration'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:732:in `declaration_or_ruleset'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:686:in `block_contents'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:686:in `block_contents'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:137:in `stylesheet'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:41:in `parse'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:290:in `render'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin.rb:82:in `update_stylesheets'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:51:in `process_result'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/base.rb:52:in `parse'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/lib/sass/exec/base.rb:19:in `parse!'
+D:/ruby/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.6/bin/sass:13:in `<top (required)>'
+D:/ruby/Ruby23-x64/bin/sass:22:in `load'
+D:/ruby/Ruby23-x64/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"			margin-top\": expected \";\", was \": 2px;\"\A         on line 26 of ./src/scss/details.scss\A \A 21: 			color:#333;\A 22: 		}\A 23: 	}\A 24: 	.five_three{\A 25: 			width:\A 26: 			margin-top: 2px;\A 27: 			margin-left: 2px;\A 28: 			display: block;\A 29: 			font-size: 15px;\A 30: 			// color: #fff;\A 31: 		}	"; }
