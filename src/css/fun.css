@@ -36,13 +36,23 @@
             height: 136px;
             display: block;
             margin-bottom: 1px; }
+          .tw_section .tw_section_con .ceng .ceng_left .ceng_left_left .jingzi_ctiv {
+            border: 1px solid #ddd; }
         .tw_section .tw_section_con .ceng .ceng_left .ceng_left_right {
           width: 560px;
           height: 601px;
-          float: left; }
-          .tw_section .tw_section_con .ceng .ceng_left .ceng_left_right img {
-            width: 560px;
-            height: 560px;
+          float: left;
+          position: relative; }
+          .tw_section .tw_section_con .ceng .ceng_left .ceng_left_right ul li {
+            position: absolute;
+            left: 0;
+            top: 0;
+            display: none; }
+            .tw_section .tw_section_con .ceng .ceng_left .ceng_left_right ul li img {
+              width: 560px;
+              height: 560px;
+              display: block; }
+          .tw_section .tw_section_con .ceng .ceng_left .ceng_left_right ul .jingzi_active {
             display: block; }
       .tw_section .tw_section_con .ceng .ceng_right {
         width: 551px;
@@ -152,7 +162,8 @@
           height: 160px;
           background: #fff;
           z-index: -111;
-          display: none; }
+          display: none;
+          box-shadow: 0 0 5px #ddd; }
           .tw_section .tw_section_con .ceng .ceng_right .address .address_top {
             width: 320px;
             height: 27px;
@@ -180,7 +191,13 @@
             float: left;
             line-height: 30px;
             color: #999;
-            font-size: 14px; }
+            font-size: 14px;
+            width: 40px;
+            height: 30px;
+            text-decoration: none;
+            text-align: center; }
+          .tw_section .tw_section_con .ceng .ceng_right .address .address_bottom a:hover {
+            background: #f6ab00; }
         .tw_section .tw_section_con .ceng .ceng_right .ding {
           width: 20px;
           position: absolute;
@@ -338,3 +355,5 @@
 
 .fi_footer_top li {
   border-top: 1px solid #ddd; }
+
+/*# sourceMappingURL=fun.css.map */

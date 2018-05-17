@@ -5,9 +5,13 @@ $(function(){
 		$(this).css('transition','all 0.5s');
 		$('.pop-up').fadeTo('slow',1,'swing');
 		$('.pop-up').css('z-index',111);
-		// var vall = parseInt($('.fi_add').html());
-		// vall++;
-		// console.log(vall+1);
+		var prev = $('.fi_add').html();
+		prev++;
+		$('.fi_add').html(prev);
+		var money = parseInt($('.fi_money'));
+		money += 188;
+		$('.fi_money').html(money);
+		
 	});
 	$('.pop_up_top a').on('click',function(){
 		$('.pop-up').fadeTo('slow',0,'swing');

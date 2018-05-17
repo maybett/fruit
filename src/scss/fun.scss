@@ -40,15 +40,30 @@
 						display: block;
 						margin-bottom: 1px;
 					}
+					.jingzi_ctiv{
+						border:1px solid #ddd;
+					}
 				}
 				.ceng_left_right{
 					width:560px;
 					height:601px;
 					float: left;
-						img{
+					position: relative;
+					ul{
+						li{
+							position: absolute;
+							left:0;
+							top:0;
+							display: none;
+							img{
 							width:560px;
 							height:560px;
 							display: block;
+							}
+						}
+						.jingzi_active{
+							display: block;
+						}
 					}
 				}
 			}
@@ -178,6 +193,7 @@
 					background:#fff;
 					z-index: -111;
 					display:none;
+					box-shadow:0 0 5px #ddd;
 					.address_top{
 						width:320px;
 						height:27px;
@@ -212,6 +228,13 @@
 							line-height: 30px; 
 							color:#999;
 							font-size: 14px;
+							width:40px;
+							height:30px;
+							text-decoration: none;
+							text-align: center;
+						}
+						a:hover{
+							background:#f6ab00;
 						}
 
 					}

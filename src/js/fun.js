@@ -24,7 +24,18 @@ $(function(){
 		$('.ding').css('z-index',0);
 	});
 	$('.tw_plus').on('click',function(){
-		// console.log($('.tw_show').html());
+		var num = $('.tw_show').html();
+		num++;
+		$('.tw_show').html(num);
+	});
+
+	$('.tw_minus').on('click',function(){
+		var num = $('.tw_show').html();
+		num--;
+		if(num <= 0){
+			num = 0;
+		}
+		$('.tw_show').html(num);
 	});
 	$('.tw_add').on('click',function(){
 		$('.pop-up').fadeTo('slow',1,'swing');
@@ -34,4 +45,12 @@ $(function(){
 		$('.pop-up').fadeTo('slow',0,'swing');
 		$('.pop-up').css('z-index',-111);
 	});
+
+	$('.ceng_left_left img').on('click',function(){
+		$('.ceng_left_left img').removeClass('jingzi_ctiv');
+		$(this).addClass('jingzi_ctiv');
+		$('#jingzi li').removeClass('jingzi_active');
+		$('#jingzi li').eq($('.ceng_left_left img').index($(this))).addClass('jingzi_active');
+	});
+	// setInterval()
 });

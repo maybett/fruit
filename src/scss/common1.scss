@@ -1,0 +1,49 @@
+.fi_search .fi_search_left{
+	width:490px;
+}
+.fi_search .fi_search_right{
+	width:485px;
+	float: right;
+	height: 44px;
+	margin-top:54px;
+	position:relative;
+	background: url('../imgs/home/icons.png') no-repeat;
+	background-position:52px -943px;
+	ul{
+		li{
+			float: left;
+			font-size:13px;
+			color:#64a131;
+			margin-top: 49px;
+			margin-left: 32px;
+		}
+		#five_one{
+			margin-left:83px;
+		}
+		#five_two{
+			margin-left:73px;
+			color:#333;
+		}
+	}
+	.five_three{
+			top: 13px;
+			left: 105px;
+			position:absolute;
+			font-size: 15px;
+			color: #fff;
+		}
+	.five_four{
+		top: 13px;
+		left: 262px;
+		position:absolute;
+		font-size: 15px;
+		color: #fff;
+	}
+	.five_five{
+		top: 13px;
+		left: 419px;
+		position:absolute;
+		font-size: 15px;
+		color: #fff;
+	}		
+}

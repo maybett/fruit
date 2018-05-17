@@ -51,7 +51,7 @@ gulp.task('yasuoHtml',function(){
 // 定义scss转换成sass
 gulp.task('sass',function(){
 	// return是为了返回错误信息
-	return sass('./src/scss/*.{scss,css}')
+	return sass('./src/scss/*.scss')
 	// 将错误信息位置打印错误信息
 	.on('error',function(err){console.log(err.message)})
 	.pipe(gulp.dest('./src/css'));
@@ -66,10 +66,10 @@ gulp.task('ting',function(){
 // 设置默认的任务
 gulp.task('default',['yasuoJs','yasuoCss','yasuoHtml'],function(){
 	// 监听
-	gulp.watch('./src/js/*.js',['yasuoJs','ting']);
-	gulp.watch('./src/css/*.css',['yasuoCss','ting']);
-	gulp.watch('./src/html/*.html',['yasuoHtml','ting']);
-	gulp.watch('./src/scss/*.scss',['sass']);
+	gulp.watch('./src/js/*.js',['yasuoJs']);//['yasuoJs','ting']);
+	gulp.watch('./src/css/*.css',['yasuoCss']);//['yasuoCss','ting']);
+	gulp.watch('./src/html/*.html',['yasuoHtml']);//['yasuoHtml','ting']);
+	gulp.watch('./src/scss/*.scss',['sass']);//['sass','yasuoCss','ting']);
 	// 开启服务器
 	connect.server({
 		// 指定端口号
