@@ -45,4 +45,11 @@ $(function(){
 		}
 		$('#rrr_three').html(prev);
 	});
+
+		$('.fi_header_left_shanghai').on('mouseenter',function(){
+		$('.me_address').css('display','block');
+	});
+	$('.me_address').on('mouseleave',function(){
+		$('.me_address').css('display','none');
+	});
 });

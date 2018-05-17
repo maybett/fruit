@@ -52,5 +52,33 @@ $(function(){
 		$('#jingzi li').removeClass('jingzi_active');
 		$('#jingzi li').eq($('.ceng_left_left img').index($(this))).addClass('jingzi_active');
 	});
-	// setInterval()
+	var index = 0;
+	var timer = null;
+	function auto(){
+			timer = setInterval(function(){
+			$('.ceng_left_left img').removeClass('jingzi_ctiv');
+			$('.ceng_left_left img').eq(index).addClass('jingzi_ctiv');
+			$('#jingzi li').removeClass('jingzi_active');
+			$('#jingzi li').eq(index).addClass('jingzi_active');
+			index++;
+			if(index >=4) {
+				index = 0;
+			}
+		},2000);
+	};
+	auto();
+	$('#jingzi li').on('mouseenter',function(){
+		clearInterval(timer);
+
+	});	
+	$('#jingzi li').on('mouseleave',function(){
+		auto();
+	});
+
+		$('.fi_header_left_shanghai').on('mouseenter',function(){
+		$('.me_address').css('display','block');
+	});
+	$('.me_address').on('mouseleave',function(){
+		$('.me_address').css('display','none');
+	});
 });
